@@ -1,0 +1,428 @@
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    /*this was where the background image originally went*/
+    background: url("images/explosive doodle.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/**
+    so I got the two below, img and .cat, from here: (https://bit.ly/3uZyCIw) which explains how you can resize an image to fit inside a container
+*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    font-family: 'Permanent Marker', cursive, 'arial_blackregular', Arial, sans-serif;
+    font-size: 62px;
+    border-radius: 5px;
+    padding-top: 1%;
+    box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
+    /* min-height: 70px;*/
+    min-height: fit-content; /*height: 220px;*/
+    width: 74%;
+    color: deeppink;
+    background-color: black;
+    z-index: 1;
+    /* text-align: center;*/
+    padding: 0% 2% 0% 5%;
+    margin-left: 5%;
+}
+
+#landing {
+    display: inline-flex;
+    align-items: stretch;
+    height: fit-content;
+}
+
+.info-box {
+    /*margin: 1%;*/
+    /*display: block;*/
+    /*float: left;*/
+    border: 10px solid deeppink;
+    font-family: helvetica;
+    width: 50%;
+    /*position: static;*/
+    /*border: 20px solid #7C4723;*/
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    /*line-height: 50px;*/
+    padding-left: 1%;
+    padding-right: 1%;
+    /*text-align: center;*/
+    height: fit-content;
+    /*height: 20%;*/
+    margin-left: 4%;
+    width: 40%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section-title {
+    font-family: 'Permanent Marker', cursive, 'arial_blackregular', Arial, sans-serif;
+    font-size: 22px;
+    border-radius: 5px;
+    padding-top: 1%;
+    box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
+    /* min-height: 70px;*/
+    min-height: fit-content; /*height: 220px;*/
+    /*width: 74%;*/
+    color: deeppink;
+    background-color: black;
+    z-index: 1;
+    /* text-align: center;*/
+    padding: 0% 2% 0% 2%;
+    /*margin-left: 5%;*/
+}
+
+/*
+.cat {
+    height: 200px;
+    width: 100px;
+}
+    */
+.reagent-bottle {
+    /* height: 8%;
+    width: 8%;*/
+    margin-bottom: 30%;
+    display: block;
+}
+
+#reagent-and-reset {
+    width: 10%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+.tube-and-ID-button {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.metal-ID-button-and-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.metal-ID-button {
+    /*
+        outline: 2px solid deeppink;
+        background-color: black;
+        color: deeppink;*/
+
+    background-color: black; /*#2176FF;*/
+    box-sizing: border-box;
+    /*width: 80%;*/
+    height: 100%;
+    border-radius: 5%;
+    outline: 2px solid deeppink;
+    /*border: 1px;
+    border-color: white;*/
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;*/
+    color: deeppink;
+    font-family: 'Orbitron', sans-serif;
+    /*'Balsamiq Sans', cursive;*/
+    /*font-family: 'Amatic SC',sans-serif;*/
+    font-size: 20px;
+    /*text-align: center;*/
+    text-transform: uppercase;
+    /*margin: auto; /*5px;*/
+    cursor: pointer;
+}
+
+    .metal-ID-button:hover {
+        transition: all 0.5s ease-out;
+        /*font-size: 40px;*/
+        background-color: #fff;
+        outline: 2px solid #2176FF;
+        color: #2176FF;
+    }
+
+    .metal-ID-button:active {
+        transition: all 0.5s ease-out;
+        /*font-size: 30px;*/
+        outline: 2px solid white;
+        background-color: deeppink;
+        color: white;
+       
+    }
+
+
+.metal-ID {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    font-size: 20px;
+    color: yellow;
+    outline: 2px solid yellow;
+}
+
+.reactions {
+    margin: 1% 1% 1% 4%;
+    width: 80%;
+}
+/*
+#test-tubes {
+    margin: 1% 1% 1% 4%;
+    width: 80%;
+}
+    */
+
+
+
+.row-of-tubes {
+    margin: 2%;
+    margin-top: 2%;
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    /*background: url("https://andprecision.com/wp-content/uploads/2019/02/Lab-Image-e1549291589939.jpg") no-repeat center center /*fixed;*/
+    /*background: url("images/laboratory background") no-repeat center center fixed;*/
+    height: 20%;
+    /*background: url("images/laboratory background trial.jpg") no-repeat bottom center;*/
+    background: url("images/laboratory background trial.jpg") no-repeat; /*center center;*/
+    /*background: url("images/laboratory background banner.png") no-repeat center center;*/
+    /*background: url("images/laboratory background.jpg") no-repeat center center;*/
+    /*background-size: contain;*/ /*100% 90%;*/
+    background-size: cover;
+    background-position: 50% 80%;
+    /*for the previous image
+        background-size: cover;
+    background-position: center top;*/
+    /*border: 3px;
+    border-color: black;*/
+    outline: 8px solid black;
+    border-radius: 30px;
+}
+
+.amount {
+    background-color: black;
+    color: yellow;
+    outline: 2px solid yellow;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.single-metal {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    margin: 1%;
+    cursor: pointer;
+    /*position: relative;*/
+}
+
+.reagent-and-reactions {
+    display: inline-block;
+}
+    
+.reactions {
+    display: inline-block;
+}
+
+
+.solution {
+    opacity: 0.5;
+    /* position: relative;*/
+}
+
+.solution, .precipitate, .outline {
+    position: absolute;
+    /*margin-top: 30px;
+        margin-left: 10px;*/
+}
+
+.precipitate {
+    /*visibility: hidden;*/
+    /*position: absolute;
+    margin-left: -11.4%;*/
+}
+/*
+#reset-NaOH-drops {
+    margin: auto;
+    width: 80%;
+    display: block;
+}
+
+
+.reagent-and-reactions {
+    width: 10%;
+}
+  
+#reactions {
+}
+*/
+
+/*styling for reset buttons*/
+
+/*
+
+.reset-button {
+    border: 2px solid #0c960c;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -2px #006bb3;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px rgba(255, 255, 255, 0.8) inset;
+    background: #1D1;
+    background: linear-gradient(#1D1, #0ebc0e);
+    text-shadow: 0 -2px #0c960c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+    .reset-button:hover {
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+        background: #0ebc0e;
+        background: linear-gradient(#0ebc0e, #0c960c);
+        border-color: #064f06;
+    }
+
+    .reset-button:active {
+        margin-top: 2px;
+        margin-bottom: -2px;
+        box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px 2px rgba(255, 255, 255, 0.4) inset;
+        background: #0c960c;
+        background: linear-gradient(#0c960c, #0ebc0e);
+    }
+
+
+ */
+
+.reset-button {
+    background-color: deeppink; /*#2176FF;*/
+    box-sizing: border-box;
+    width: 80%;
+    height: 100%;
+    border-radius: 5%;
+    outline: 2px solid white;
+    /*border: 1px;
+    border-color: white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    /*'Balsamiq Sans', cursive;*/
+    /*font-family: 'Amatic SC',sans-serif;*/
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto; /*5px;*/
+    cursor: pointer;
+}
+
+    .reset-button:hover {
+        transition: all 0.5s ease-out;
+        /*font-size: 40px;*/
+        background-color: #fff;
+        outline: 2px solid #2176FF;
+        color: #2176FF;
+    }
+
+    .reset-button:active {
+        transition: all 0.5s ease-out;
+        /*font-size: 30px;*/
+        outline: 2px solid deeppink;
+        background-color: black;
+        color: deeppink;
+    }
+
+
+/* piano centres the keys */
+.piano {
+    width: 305px;
+    height: 210px;
+    display: block;
+    margin: 0 auto;
+    /*background-color: #fd4d3f;*/
+    margin-top: 230px;
+}
+
+/*
+    "absolute" below (note that's position not display) is how to achieve overlaying (picked that little tip up from: (https://www.tutorialrepublic.com/faq/how-to-overlay-one-div-over-another-div-using-css.php#:~:text=You%20can%20use%20the%20CSS,%2C%20fixed%20%2C%20or%20relative%20).
+    note that in the link above, the squares don't start off right on top of each other, you need to fuck around with margins and such
+*/
+
+.key {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    /* display: inline-block;*/
+    border: solid #141c3a 2px;
+    box-shadow: 2px 5px;
+    background-color: white;
+    color: #141c3a;
+    opacity: 0.5;
+}
+
+.black-key {
+    width: 25px;
+    height: 100px;
+    display: inline-block;
+    background-color: #141c3a;
+    color: white;
+    position: absolute;
+    margin-left: -12px;
+    padding: 0px;
+    opacity: 0.5;
+}
+
+.keynote {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 175px;
+    color: #141c3a;
+}
+
+.black-keynote {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+#first-next-line, #second-next-line, #third-next-line, #fourth-next-line {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: none;
+    background-color: #ffc63f;
+    color: #141c3a;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
