@@ -1,10 +1,9 @@
 
 
 body {
-    font-family: Helvetica, sans-serif;
-    /*this was where the background image originally went*/
+    /* font-family: Helvetica, sans-serif;
     background: url("images/explosive doodle.png") no-repeat center center fixed;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /**
@@ -17,20 +16,18 @@ img {
 }
 
 header {
-    font-family: 'Permanent Marker', cursive, 'arial_blackregular', Arial, sans-serif;
+    /* font-family: 'Permanent Marker', cursive, 'arial_blackregular', Arial, sans-serif;
     font-size: 62px;
     border-radius: 5px;
     padding-top: 1%;
     box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
-    /* min-height: 70px;*/
-    min-height: fit-content; /*height: 220px;*/
+    min-height: fit-content; 
     width: 74%;
     color: deeppink;
     background-color: black;
     z-index: 1;
-    /* text-align: center;*/
     padding: 0% 2% 0% 5%;
-    margin-left: 5%;
+    margin-left: 5%; */
 }
 
 #landing {
@@ -39,30 +36,22 @@ header {
     height: fit-content;
 }
 
-.info-box {
-    /*margin: 1%;*/
-    /*display: block;*/
-    /*float: left;*/
+/* .info-box {
     border: 10px solid deeppink;
     font-family: helvetica;
     width: 50%;
-    /*position: static;*/
-    /*border: 20px solid #7C4723;*/
     border-radius: 5px;
     box-shadow: 0 0 0 2px hsl(0, 0%, 80%);
     color: white;
     background-color: blue;
     font-size: 20px;
     font-weight: bold;
-    /*line-height: 50px;*/
     padding-left: 1%;
     padding-right: 1%;
-    /*text-align: center;*/
     height: fit-content;
-    /*height: 20%;*/
     margin-left: 4%;
     width: 40%;
-}
+} */
 
 .section {
     display: flex;
