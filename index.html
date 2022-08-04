@@ -22,7 +22,7 @@
 <body>
     <header>
         <section class="container">
-            <h1 class="page-title">Reactions of complex ions</h1>
+            <h1 class="display-2">Reactions of complex ions</h1>
         </section>
     </header>
 
@@ -94,17 +94,27 @@
             </div>
 
         </div>
-        <div class="buttons">
+        <div class="container">
+            <!-- these are buttons ele,ments (instead of divs) to ensure they can be focused on using keyboard nabigation only - crucial for accessibility -->
             <button class="back-button" onClick='displayLast(0, {"last page": 3, observation: "", comparison: "", "written response": ""});' id="back-button-0">
                 <i class="mdi mdi-chevron-left"></i>Previous slide 
             </button>
-            <button class="next-button" onClick='displayNext(0, {"last page": 3, observation: "", comparison: "", "written response": ""});' id="next-button-0">
+            <button class="next-button float-end" onClick='displayNext(0, {"last page": 3, observation: "", comparison: "", "written response": ""});' id="next-button-0">
                 Next slide<i class="mdi mdi-chevron-right"></i>
             </button>
         </div>
     </div>
 
     <hr>
+
+    <section class="container">
+        <ul class="list-group">
+            <li class="list-group-item">Section 1: Reactions with concentrated hydrochloric acid (HCl)</li>
+            <li class="list-group-item">Section 2: Reactions with sodium hydroxide (NaOH)</li>
+            <li class="list-group-item">Section 3: Reactions with ammonia (NH<sub>3</sub>)</li>
+            <li class="list-group-item">Section 4: Reactions with sodium carbonate (Na<sub>2</sub>CO<sub>3</sub>)</li>
+        </ul>
+    </section>
 
     <!--addition concentrated hydrochloric acid-->
     <section class="container" id="section2">
