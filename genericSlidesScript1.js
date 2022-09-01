@@ -1,13 +1,22 @@
 //hidden slides
 
-//text-box-0 intro text
+//text-box-1 reactions with concentrated hydrochloric acid
+// TODO: this is really repetitive. Good code is DRY, ie. do not repeat yourself
 
-document.getElementById('text-box-0-slide-2').hidden = true;
-document.getElementById('text-box-0-slide-3').hidden = true;
+document.getElementById('text-box-1-slide-2').hidden = true;
+document.getElementById('text-box-1-slide-3').hidden = true;
+document.getElementById('text-box-1-slide-4').hidden = true;
+document.getElementById('text-box-1-slide-5').hidden = true;
+document.getElementById('text-box-1-slide-6').hidden = true;
+document.getElementById('text-box-1-slide-7').hidden = true;
+document.getElementById('text-box-1-slide-8').hidden = true;
+document.getElementById('text-box-1-slide-9').hidden = true;
+document.getElementById('text-box-1-slide-10').hidden = true;
 
-document.getElementById('back-button-0').style.cursor = "not-allowed";
+document.getElementById('back-button-1').style.cursor = "not-allowed";
 
-
+document.getElementById('reset1').hidden = true;
+document.getElementById('show1').hidden = true;
 
 
 //function to find unhidden slide
